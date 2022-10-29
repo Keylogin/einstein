@@ -1,0 +1,8 @@
+c_power = pow(299792458, 2)
+
+m = int(input("m: "))
+
+formula = m * c_power
+formula_round = round(formula, -16)
+
+print("E:", formula_round)
